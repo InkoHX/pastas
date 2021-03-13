@@ -1,0 +1,12 @@
+{
+  "name": "pastas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/InkoHX/pastas.git",
+  "author": "InkoHX <me@inkohx.dev>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^14.14.33",
+    "typescript": "^4.2.3"
+  }
+}
