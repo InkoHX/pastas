@@ -14,6 +14,8 @@ const [args, options] = pastas(
   }
 )
 
+const { foo = false } = options
+
 console.log(args) // ['Hello World', 123]
-console.log(options) // { foo: true }
+console.log(foo) // true if with "-F" or "--foo".
 ```
