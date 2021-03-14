@@ -14,8 +14,8 @@ export const pastasRegExp = {
       value: {
         noQuote: /--?(?<name>[\w\d]+)\s(?<value>[\d\w]+)/g,
         doubleQuote: /--?(?<name>[\w\d]+)[=|\s]"(?<value>(?:[^"\\]|\\.)+)"/g,
-        singleQuote: /--?(?<name>[\w\d]+)[=|\s]'(?<value>(?:[^'\\]|\\.)+)'/g
-      }
-    }
-  }
+        singleQuote: /--?(?<name>[\w\d]+)[=|\s]'(?<value>(?:[^'\\]|\\.)+)'/g,
+      },
+    },
+  },
 } as const
