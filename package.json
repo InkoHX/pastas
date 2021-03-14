@@ -6,7 +6,13 @@
   "author": "InkoHX <me@inkohx.dev>",
   "license": "MIT",
   "devDependencies": {
+    "@types/jest": "^26.0.20",
     "@types/node": "^14.14.33",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.5.3",
     "typescript": "^4.2.3"
+  },
+  "scripts": {
+    "test": "jest"
   }
 }
